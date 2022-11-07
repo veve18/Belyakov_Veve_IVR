@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0403B6AF291957FD0011343E /* CharityFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403B6AE291957FD0011343E /* CharityFilters.swift */; };
+		0403B6B129195E2E0011343E /* ShelterFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403B6B029195E2E0011343E /* ShelterFilters.swift */; };
+		0403B6B329196FFD0011343E /* LikedPosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0403B6B229196FFD0011343E /* LikedPosts.swift */; };
+		0424269D29184514001B2E6A /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424269C29184514001B2E6A /* EditProfileView.swift */; };
+		0424269F291848D9001B2E6A /* OrganisationProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424269E291848D9001B2E6A /* OrganisationProfileView.swift */; };
+		042426A129185A1D001B2E6A /* OrganisationEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042426A029185A1D001B2E6A /* OrganisationEditView.swift */; };
+		04486045290E9E42005F8C92 /* hewilApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04486044290E9E42005F8C92 /* hewilApp.swift */; };
+		04486047290E9E42005F8C92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04486046290E9E42005F8C92 /* ContentView.swift */; };
+		04486049290E9E43005F8C92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04486048290E9E43005F8C92 /* Assets.xcassets */; };
+		0448604C290E9E43005F8C92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0448604B290E9E43005F8C92 /* Preview Assets.xcassets */; };
+		04486056290E9E43005F8C92 /* hewilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04486055290E9E43005F8C92 /* hewilTests.swift */; };
+		04486060290E9E43005F8C92 /* hewilUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448605F290E9E43005F8C92 /* hewilUITests.swift */; };
+		04486062290E9E43005F8C92 /* hewilUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04486061290E9E43005F8C92 /* hewilUITestsLaunchTests.swift */; };
+		04486070290E9E70005F8C92 /* UnauthorizedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448606F290E9E70005F8C92 /* UnauthorizedView.swift */; };
+		04486072290EA428005F8C92 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04486071290EA428005F8C92 /* RegistrationView.swift */; };
+		04486075290EA651005F8C92 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 04486074290EA651005F8C92 /* Alamofire */; };
+		04486077290EAE14005F8C92 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04486076290EAE14005F8C92 /* LoginView.swift */; };
+		04486079290EB9D0005F8C92 /* OrganisationLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04486078290EB9D0005F8C92 /* OrganisationLoginView.swift */; };
+		0448607B290EBB11005F8C92 /* OrganisationRegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448607A290EBB11005F8C92 /* OrganisationRegistrationView.swift */; };
+		0448607D290F1524005F8C92 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448607C290F1524005F8C92 /* AppState.swift */; };
+		04486080290F1709005F8C92 /* CharityFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0448607F290F1709005F8C92 /* CharityFeed.swift */; };
+		04486082290F1906005F8C92 /* CharityPostCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04486081290F1906005F8C92 /* CharityPostCard.swift */; };
+		04486084290F19BD005F8C92 /* CharityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04486083290F19BD005F8C92 /* CharityCard.swift */; };
+		04B96E88290FE2AD0006C964 /* CharityPostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B96E87290FE2AD0006C964 /* CharityPostDetailView.swift */; };
+		04B96E8A29104A6F0006C964 /* ShelterPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B96E8929104A6F0006C964 /* ShelterPost.swift */; };
+		04B96E8C29104BD10006C964 /* SheltersFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B96E8B29104BD10006C964 /* SheltersFeed.swift */; };
+		04B96E8E29104CA60006C964 /* ShelterPostCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B96E8D29104CA60006C964 /* ShelterPostCard.swift */; };
+		04B96E9029105A2E0006C964 /* ShelterPostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B96E8F29105A2E0006C964 /* ShelterPostDetailView.swift */; };
+		04B96E922911B41F0006C964 /* UserNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B96E912911B41F0006C964 /* UserNavigationView.swift */; };
+		04B96E942911C1090006C964 /* CharityNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B96E932911C1090006C964 /* CharityNavigationView.swift */; };
+		04B96E972911C1600006C964 /* NewCharityPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B96E962911C1600006C964 /* NewCharityPost.swift */; };
+		04B96E99291273C90006C964 /* NewShelterPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B96E98291273C90006C964 /* NewShelterPost.swift */; };
+		04B96E9B29127CFB0006C964 /* OrganisationCharityFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B96E9A29127CFB0006C964 /* OrganisationCharityFeed.swift */; };
+		04B96E9D29128D070006C964 /* OrganisationSheltersFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B96E9C29128D070006C964 /* OrganisationSheltersFeed.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04486052290E9E43005F8C92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04486039290E9E42005F8C92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04486040290E9E42005F8C92;
+			remoteInfo = hewil;
+		};
+		0448605C290E9E43005F8C92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04486039290E9E42005F8C92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04486040290E9E42005F8C92;
+			remoteInfo = hewil;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0403B6AE291957FD0011343E /* CharityFilters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharityFilters.swift; sourceTree = "<group>"; };
+		0403B6B029195E2E0011343E /* ShelterFilters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterFilters.swift; sourceTree = "<group>"; };
+		0403B6B229196FFD0011343E /* LikedPosts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedPosts.swift; sourceTree = "<group>"; };
+		0424269C29184514001B2E6A /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		0424269E291848D9001B2E6A /* OrganisationProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganisationProfileView.swift; sourceTree = "<group>"; };
+		042426A029185A1D001B2E6A /* OrganisationEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganisationEditView.swift; sourceTree = "<group>"; };
+		04486041290E9E42005F8C92 /* hewil.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hewil.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04486044290E9E42005F8C92 /* hewilApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hewilApp.swift; sourceTree = "<group>"; };
+		04486046290E9E42005F8C92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04486048290E9E43005F8C92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0448604B290E9E43005F8C92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04486051290E9E43005F8C92 /* hewilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hewilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04486055290E9E43005F8C92 /* hewilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hewilTests.swift; sourceTree = "<group>"; };
+		0448605B290E9E43005F8C92 /* hewilUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hewilUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0448605F290E9E43005F8C92 /* hewilUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hewilUITests.swift; sourceTree = "<group>"; };
+		04486061290E9E43005F8C92 /* hewilUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hewilUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0448606F290E9E70005F8C92 /* UnauthorizedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnauthorizedView.swift; sourceTree = "<group>"; };
+		04486071290EA428005F8C92 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		04486076290EAE14005F8C92 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		04486078290EB9D0005F8C92 /* OrganisationLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganisationLoginView.swift; sourceTree = "<group>"; };
+		0448607A290EBB11005F8C92 /* OrganisationRegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganisationRegistrationView.swift; sourceTree = "<group>"; };
+		0448607C290F1524005F8C92 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		0448607F290F1709005F8C92 /* CharityFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharityFeed.swift; sourceTree = "<group>"; };
+		04486081290F1906005F8C92 /* CharityPostCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharityPostCard.swift; sourceTree = "<group>"; };
+		04486083290F19BD005F8C92 /* CharityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharityCard.swift; sourceTree = "<group>"; };
+		04B96E87290FE2AD0006C964 /* CharityPostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharityPostDetailView.swift; sourceTree = "<group>"; };
+		04B96E8929104A6F0006C964 /* ShelterPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterPost.swift; sourceTree = "<group>"; };
+		04B96E8B29104BD10006C964 /* SheltersFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheltersFeed.swift; sourceTree = "<group>"; };
+		04B96E8D29104CA60006C964 /* ShelterPostCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterPostCard.swift; sourceTree = "<group>"; };
+		04B96E8F29105A2E0006C964 /* ShelterPostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterPostDetailView.swift; sourceTree = "<group>"; };
+		04B96E912911B41F0006C964 /* UserNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNavigationView.swift; sourceTree = "<group>"; };
+		04B96E932911C1090006C964 /* CharityNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharityNavigationView.swift; sourceTree = "<group>"; };
+		04B96E962911C1600006C964 /* NewCharityPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCharityPost.swift; sourceTree = "<group>"; };
+		04B96E98291273C90006C964 /* NewShelterPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewShelterPost.swift; sourceTree = "<group>"; };
+		04B96E9A29127CFB0006C964 /* OrganisationCharityFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganisationCharityFeed.swift; sourceTree = "<group>"; };
+		04B96E9C29128D070006C964 /* OrganisationSheltersFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganisationSheltersFeed.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0448603E290E9E42005F8C92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04486075290EA651005F8C92 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0448604E290E9E43005F8C92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04486058290E9E43005F8C92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04486038290E9E42005F8C92 = {
+			isa = PBXGroup;
+			children = (
+				04486043290E9E42005F8C92 /* hewil */,
+				04486054290E9E43005F8C92 /* hewilTests */,
+				0448605E290E9E43005F8C92 /* hewilUITests */,
+				04486042290E9E42005F8C92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04486042290E9E42005F8C92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04486041290E9E42005F8C92 /* hewil.app */,
+				04486051290E9E43005F8C92 /* hewilTests.xctest */,
+				0448605B290E9E43005F8C92 /* hewilUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04486043290E9E42005F8C92 /* hewil */ = {
+			isa = PBXGroup;
+			children = (
+				04486044290E9E42005F8C92 /* hewilApp.swift */,
+				04B96E952911C13C0006C964 /* CharityViews */,
+				0448607E290F16F9005F8C92 /* CommonUserViews */,
+				0448607C290F1524005F8C92 /* AppState.swift */,
+				0448606E290E9E5E005F8C92 /* Login */,
+				04486046290E9E42005F8C92 /* ContentView.swift */,
+				04486048290E9E43005F8C92 /* Assets.xcassets */,
+				0448604A290E9E43005F8C92 /* Preview Content */,
+			);
+			path = hewil;
+			sourceTree = "<group>";
+		};
+		0448604A290E9E43005F8C92 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0448604B290E9E43005F8C92 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04486054290E9E43005F8C92 /* hewilTests */ = {
+			isa = PBXGroup;
+			children = (
+				04486055290E9E43005F8C92 /* hewilTests.swift */,
+			);
+			path = hewilTests;
+			sourceTree = "<group>";
+		};
+		0448605E290E9E43005F8C92 /* hewilUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0448605F290E9E43005F8C92 /* hewilUITests.swift */,
+				04486061290E9E43005F8C92 /* hewilUITestsLaunchTests.swift */,
+			);
+			path = hewilUITests;
+			sourceTree = "<group>";
+		};
+		0448606E290E9E5E005F8C92 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0448606F290E9E70005F8C92 /* UnauthorizedView.swift */,
+				04486078290EB9D0005F8C92 /* OrganisationLoginView.swift */,
+				04486071290EA428005F8C92 /* RegistrationView.swift */,
+				0448607A290EBB11005F8C92 /* OrganisationRegistrationView.swift */,
+				04486076290EAE14005F8C92 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		0448607E290F16F9005F8C92 /* CommonUserViews */ = {
+			isa = PBXGroup;
+			children = (
+				0448607F290F1709005F8C92 /* CharityFeed.swift */,
+				04B96E8929104A6F0006C964 /* ShelterPost.swift */,
+				04486081290F1906005F8C92 /* CharityPostCard.swift */,
+				0403B6AE291957FD0011343E /* CharityFilters.swift */,
+				0424269E291848D9001B2E6A /* OrganisationProfileView.swift */,
+				0403B6B029195E2E0011343E /* ShelterFilters.swift */,
+				0424269C29184514001B2E6A /* EditProfileView.swift */,
+				04B96E8F29105A2E0006C964 /* ShelterPostDetailView.swift */,
+				04B96E8D29104CA60006C964 /* ShelterPostCard.swift */,
+				04B96E8B29104BD10006C964 /* SheltersFeed.swift */,
+				0403B6B229196FFD0011343E /* LikedPosts.swift */,
+				04B96E87290FE2AD0006C964 /* CharityPostDetailView.swift */,
+				04486083290F19BD005F8C92 /* CharityCard.swift */,
+				04B96E912911B41F0006C964 /* UserNavigationView.swift */,
+			);
+			path = CommonUserViews;
+			sourceTree = "<group>";
+		};
+		04B96E952911C13C0006C964 /* CharityViews */ = {
+			isa = PBXGroup;
+			children = (
+				04B96E932911C1090006C964 /* CharityNavigationView.swift */,
+				04B96E98291273C90006C964 /* NewShelterPost.swift */,
+				04B96E9A29127CFB0006C964 /* OrganisationCharityFeed.swift */,
+				04B96E9C29128D070006C964 /* OrganisationSheltersFeed.swift */,
+				04B96E962911C1600006C964 /* NewCharityPost.swift */,
+				042426A029185A1D001B2E6A /* OrganisationEditView.swift */,
+			);
+			path = CharityViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04486040290E9E42005F8C92 /* hewil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04486065290E9E43005F8C92 /* Build configuration list for PBXNativeTarget "hewil" */;
+			buildPhases = (
+				0448603D290E9E42005F8C92 /* Sources */,
+				0448603E290E9E42005F8C92 /* Frameworks */,
+				0448603F290E9E42005F8C92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hewil;
+			packageProductDependencies = (
+				04486074290EA651005F8C92 /* Alamofire */,
+			);
+			productName = hewil;
+			productReference = 04486041290E9E42005F8C92 /* hewil.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04486050290E9E43005F8C92 /* hewilTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04486068290E9E43005F8C92 /* Build configuration list for PBXNativeTarget "hewilTests" */;
+			buildPhases = (
+				0448604D290E9E43005F8C92 /* Sources */,
+				0448604E290E9E43005F8C92 /* Frameworks */,
+				0448604F290E9E43005F8C92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04486053290E9E43005F8C92 /* PBXTargetDependency */,
+			);
+			name = hewilTests;
+			productName = hewilTests;
+			productReference = 04486051290E9E43005F8C92 /* hewilTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0448605A290E9E43005F8C92 /* hewilUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0448606B290E9E43005F8C92 /* Build configuration list for PBXNativeTarget "hewilUITests" */;
+			buildPhases = (
+				04486057290E9E43005F8C92 /* Sources */,
+				04486058290E9E43005F8C92 /* Frameworks */,
+				04486059290E9E43005F8C92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0448605D290E9E43005F8C92 /* PBXTargetDependency */,
+			);
+			name = hewilUITests;
+			productName = hewilUITests;
+			productReference = 0448605B290E9E43005F8C92 /* hewilUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04486039290E9E42005F8C92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					04486040290E9E42005F8C92 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					04486050290E9E43005F8C92 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 04486040290E9E42005F8C92;
+					};
+					0448605A290E9E43005F8C92 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 04486040290E9E42005F8C92;
+					};
+				};
+			};
+			buildConfigurationList = 0448603C290E9E42005F8C92 /* Build configuration list for PBXProject "hewil" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04486038290E9E42005F8C92;
+			packageReferences = (
+				04486073290EA651005F8C92 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 04486042290E9E42005F8C92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04486040290E9E42005F8C92 /* hewil */,
+				04486050290E9E43005F8C92 /* hewilTests */,
+				0448605A290E9E43005F8C92 /* hewilUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0448603F290E9E42005F8C92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0448604C290E9E43005F8C92 /* Preview Assets.xcassets in Resources */,
+				04486049290E9E43005F8C92 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0448604F290E9E43005F8C92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04486059290E9E43005F8C92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0448603D290E9E42005F8C92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B96E8E29104CA60006C964 /* ShelterPostCard.swift in Sources */,
+				04B96E9029105A2E0006C964 /* ShelterPostDetailView.swift in Sources */,
+				0448607B290EBB11005F8C92 /* OrganisationRegistrationView.swift in Sources */,
+				04B96E99291273C90006C964 /* NewShelterPost.swift in Sources */,
+				042426A129185A1D001B2E6A /* OrganisationEditView.swift in Sources */,
+				0403B6B329196FFD0011343E /* LikedPosts.swift in Sources */,
+				04486079290EB9D0005F8C92 /* OrganisationLoginView.swift in Sources */,
+				04B96E88290FE2AD0006C964 /* CharityPostDetailView.swift in Sources */,
+				04486047290E9E42005F8C92 /* ContentView.swift in Sources */,
+				0448607D290F1524005F8C92 /* AppState.swift in Sources */,
+				04486070290E9E70005F8C92 /* UnauthorizedView.swift in Sources */,
+				04B96E8A29104A6F0006C964 /* ShelterPost.swift in Sources */,
+				0424269F291848D9001B2E6A /* OrganisationProfileView.swift in Sources */,
+				04486045290E9E42005F8C92 /* hewilApp.swift in Sources */,
+				04B96E9B29127CFB0006C964 /* OrganisationCharityFeed.swift in Sources */,
+				04B96E922911B41F0006C964 /* UserNavigationView.swift in Sources */,
+				04486077290EAE14005F8C92 /* LoginView.swift in Sources */,
+				04486072290EA428005F8C92 /* RegistrationView.swift in Sources */,
+				04486082290F1906005F8C92 /* CharityPostCard.swift in Sources */,
+				04486080290F1709005F8C92 /* CharityFeed.swift in Sources */,
+				04B96E9D29128D070006C964 /* OrganisationSheltersFeed.swift in Sources */,
+				0424269D29184514001B2E6A /* EditProfileView.swift in Sources */,
+				04B96E942911C1090006C964 /* CharityNavigationView.swift in Sources */,
+				04486084290F19BD005F8C92 /* CharityCard.swift in Sources */,
+				0403B6B129195E2E0011343E /* ShelterFilters.swift in Sources */,
+				04B96E972911C1600006C964 /* NewCharityPost.swift in Sources */,
+				0403B6AF291957FD0011343E /* CharityFilters.swift in Sources */,
+				04B96E8C29104BD10006C964 /* SheltersFeed.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0448604D290E9E43005F8C92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04486056290E9E43005F8C92 /* hewilTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04486057290E9E43005F8C92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04486062290E9E43005F8C92 /* hewilUITestsLaunchTests.swift in Sources */,
+				04486060290E9E43005F8C92 /* hewilUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04486053290E9E43005F8C92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04486040290E9E42005F8C92 /* hewil */;
+			targetProxy = 04486052290E9E43005F8C92 /* PBXContainerItemProxy */;
+		};
+		0448605D290E9E43005F8C92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04486040290E9E42005F8C92 /* hewil */;
+			targetProxy = 0448605C290E9E43005F8C92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04486063290E9E43005F8C92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04486064290E9E43005F8C92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04486066290E9E43005F8C92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hewil/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Hewil;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bestveve.hewil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04486067290E9E43005F8C92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hewil/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Hewil;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bestveve.hewil;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04486069290E9E43005F8C92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 757AQD525H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bestveve.hewilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hewil.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hewil";
+			};
+			name = Debug;
+		};
+		0448606A290E9E43005F8C92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 757AQD525H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bestveve.hewilTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hewil.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/hewil";
+			};
+			name = Release;
+		};
+		0448606C290E9E43005F8C92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 757AQD525H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bestveve.hewilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hewil;
+			};
+			name = Debug;
+		};
+		0448606D290E9E43005F8C92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 757AQD525H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = bestveve.hewilUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = hewil;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0448603C290E9E42005F8C92 /* Build configuration list for PBXProject "hewil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04486063290E9E43005F8C92 /* Debug */,
+				04486064290E9E43005F8C92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04486065290E9E43005F8C92 /* Build configuration list for PBXNativeTarget "hewil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04486066290E9E43005F8C92 /* Debug */,
+				04486067290E9E43005F8C92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04486068290E9E43005F8C92 /* Build configuration list for PBXNativeTarget "hewilTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04486069290E9E43005F8C92 /* Debug */,
+				0448606A290E9E43005F8C92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0448606B290E9E43005F8C92 /* Build configuration list for PBXNativeTarget "hewilUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0448606C290E9E43005F8C92 /* Debug */,
+				0448606D290E9E43005F8C92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		04486073290EA651005F8C92 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		04486074290EA651005F8C92 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04486073290EA651005F8C92 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 04486039290E9E42005F8C92 /* Project object */;
+}
